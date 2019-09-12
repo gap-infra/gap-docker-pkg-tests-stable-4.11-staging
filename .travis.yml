@@ -7,9 +7,8 @@ branches:
 env:
   global:
     - GAPCONTAINER="gapsystem/gap-docker-stable-4.11"
-    - GAPDIRNAME="gap-stable-4.11"
 
-  matrix:
+matrix:
     - PKG_NAME=atlasrep
     - PKG_NAME=automgrp
     - PKG_NAME=cryst
@@ -46,4 +45,4 @@ before_install:
 
 script:
   - docker version
-  - docker run -v $PWD:/home/gap/travis/ ${GAPCONTAINER} /bin/sh -c "GAPDIRNAME=${GAPDIRNAME} PKG_NAME=${PKG_NAME} TERM=xterm LANG=en_GB.UTF-8 /home/gap/travis/ci.sh"
+  - docker run -v $PWD:/home/gap/travis/ ${GAPCONTAINER} /bin/sh -c "PKG_NAME=${PKG_NAME} TERM=xterm LANG=en_GB.UTF-8 /home/gap/travis/ci.sh"
