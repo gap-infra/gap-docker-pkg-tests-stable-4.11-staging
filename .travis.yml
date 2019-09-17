@@ -8,7 +8,7 @@ env:
   global:
     - GAPCONTAINER="gapsystem/gap-docker-stable-4.11"
 
-matrix:
+  matrix:
     - PKG_NAME=atlasrep
     - PKG_NAME=automgrp
     - PKG_NAME=cryst
