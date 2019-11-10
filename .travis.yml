@@ -17,7 +17,6 @@ env:
     - PKG_NAME=groupoids
     - PKG_NAME=hapcryst
     - PKG_NAME=help # see https://github.com/gap-packages/HeLP/issues/3
-    - PKG_NAME=nock
     - PKG_NAME=openmath
     - PKG_NAME=packagemanager
     - PKG_NAME=polymaking
@@ -25,10 +24,10 @@ env:
     - PKG_NAME=rcwa
     - PKG_NAME=recog
     - PKG_NAME=simpcomp
-    - PKG_NAME=singular
     - PKG_NAME=sla
     - PKG_NAME=sonata
     - PKG_NAME=xmod
+    - PKG_NAME=yangbaxter
 
 services:
   - docker
