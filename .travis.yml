@@ -29,6 +29,7 @@ env:
     - PKG_NAME=simpcomp
     - PKG_NAME=sla
     - PKG_NAME=sonata
+    - PKG_NAME=transgrp
     - PKG_NAME=xmod
     - PKG_NAME=yangbaxter
 
