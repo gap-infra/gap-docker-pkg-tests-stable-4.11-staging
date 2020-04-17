@@ -11,7 +11,6 @@ env:
   matrix:
     - PKG_NAME=agt
     - PKG_NAME=atlasrep
-    - PKG_NAME=ctbllib
     - PKG_NAME=ferret
     - PKG_NAME=fr
     - PKG_NAME=gbnp
@@ -25,7 +24,6 @@ env:
     - PKG_NAME=quagroup
     - PKG_NAME=rcwa
     - PKG_NAME=recog
-    - PKG_NAME=semigroups
     - PKG_NAME=simpcomp
     - PKG_NAME=sla
     - PKG_NAME=sonata
